@@ -10,3 +10,20 @@ p {
 a {
     font-family:'Courier New';
 }
+
+/* Classes */
+
+a:visited.button, a:link.button  {
+    background-color: #f44336;
+    color:white;
+    padding:15px 25px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Lucida Console;
+    font-weight: bold;
+}
+
+a:hover.button, a:active.button {
+    background-color: #a82c23
+}
