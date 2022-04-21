@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Github Workflow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Images/myrfavicon.ico">
+</head>
+
+<body>
+
+<a href="Home.html" class="button">
+    Back to home page
+</a>
+<hr>
+    
+<img src="Images/1.png" alt="Workflow stage 1" style="max-width:100%;width:500px;"
+onclick="cycleImages()" id="image">
+
+<script>
+var i = 0;
+function cycleImages() {
+    console.log(i);
+    i = i + 1;
+    if (i % 5 === 0) {
+        document.getElementById("image").src = "Images/1.png";
+    }
+    if (i % 5 === 1) {
+        document.getElementById("image").src = "Images/2.png";
+    }
+    if (i % 5 === 2) {
+        document.getElementById("image").src = "Images/3.png";
+    }
+    if (i % 5 === 3) {
+        document.getElementById("image").src = "Images/4.png";
+    }
+    if (i % 5 === 4) {
+        document.getElementById("image").src = "Images/5.png";
+    }
+
+}
+</script>
+
+</body>
+</html>
